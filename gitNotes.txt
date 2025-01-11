@@ -67,6 +67,76 @@ push - Upload local repo content to remote repo.
 Local To Remote (GitHub)
 ----------------------------------------------------------------
 
+Init Command:
+init - used to create a new git repo.
+
+>> git init
+>> git remote add origin <Link>
+>> git remote -v (to verify remote)
+>> git branch (to check branch)
+>> git branch -M main (to rename branch)
+>> git push origin main
+----------------------------------------------------------------
+
+Work-Flow:
+Create a github repo first
+Clone
+Changes 
+Add
+commit
+push 
+----------------------------------------------------------------
+
+Branch Commands:
+>> git branch (to check branch)
+>> git branch -M main (to rename branch)
+>> git checkout <branch_name> (to navigate)
+>> git checkout -b <new_branch_name> (to create new branch)
+>> git branch -d <branch_name> (to delete branch)
+----------------------------------------------------------------
+
+Merging Commands:
+
+Way 1
+>> git diff <branch_name> (to compare commits, branches, files & more)
+>> git merge <branch_name> (to merge 2 branches)
+
+way 2
+create PR (Pull Request on GitHub)
+
+Pull Request : It lets you tell others about changes you have pushed to a branch in a repository on GitHub.
+----------------------------------------------------------------
+
+Pull Command:
+>> git pull origin <branch_name>
+
+used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+
+Resolving Merge Conflicts:
+An event that takes place when Git is unable to automatically resolve differences in code between two commits.
+----------------------------------------------------------------
+
+Undoing Changes:
+
+Case 1 : Stages Changes
+>> git reset <file_name> 
+>> git reset
+
+>> git log (check commit history)
+
+Case 2 : Committed Changes (for one commit)
+>> git reset HEAD~1
+
+Case 3 : Command Changes (for many commits)
+>> git reset <commit_hash>
+>> git reset --hard <commit_hash>
+----------------------------------------------------------------
+
+Fork:
+A fork is a new repository that shares code and visibility settings with the original "upstream" repository.
+
+Fork is a rough copy.
+----------------------------------------------------------------
 
 
 
