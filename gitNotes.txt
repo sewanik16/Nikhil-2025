@@ -1,0 +1,68 @@
+Version Control System: is a tools that helps to track changes in code.
+
+Git is a Version control system.
+
+Popular
+Free and Open Source
+Fast & Scalable
+
+Track The History
+Collaboration
+----------------------------------------------------------------
+
+GitHub: Websites that allows developers to store and manage their code using Git.
+
+Repository (Folder)
+
+Engagement >> Wedding
+Add        >> Commit
+----------------------------------------------------------------
+
+Git Installation
+
+git --Version
+
+Git Configuration:
+git config --global user.name "MyName"
+git config --global user.email "myemail"
+git config --list
+
+----------------------------------------------------------------
+
+Clone & Status:
+
+Clone: Cloning a Repository on our local machine
+git clone <Link>
+
+Status: Displays the state of the code
+git status 
+
+ls >> list of repositories
+ls -a >> all repositories with hidden files
+
+----------------------------------------------------------------
+
+Status: 4 Types of status
+
+Untracked : New files that git doens't yet track.
+Modified : Changed files.
+Staged : File is ready to be commited.
+Unmodified : Unchanged files.
+----------------------------------------------------------------
+
+Add & Commit:
+
+add - adds a new or changed files in your working directory to the staging area.
+git add <file_name>
+git add .
+
+commit - It is the record of change.
+git commit -m "message here"
+
+
+
+
+
+
+
+
